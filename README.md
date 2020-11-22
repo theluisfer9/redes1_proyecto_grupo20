@@ -93,7 +93,8 @@ trunk |
 ### EIGRP
 | Comando | Descripcion |
 |---|---|
-|  |  |
+| router eigrp # | Configurar EIGRP |
+| network [mascara en wildcard] | Agregar red |
 
 ### OSPF
 | Comando | Descripcion |
@@ -105,7 +106,9 @@ Indicada con un área en especifico |
 ### SUB-INTERFACES
 | Comando | Descripcion |
 |---|---|
-|  |  |
+| int f#/#.# | Se selecciona la subinterfaz |
+| encapsulation dot1q | Modo trunk |
+| ip address [ip] | Agregar ip |
 
 ### RIP
 | Comando | Descripcion |
