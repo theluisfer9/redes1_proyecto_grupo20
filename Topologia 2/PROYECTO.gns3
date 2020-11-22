@@ -594,8 +594,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "Switch1",
-                    "x": 6,
-                    "y": -25
+                    "x": -15,
+                    "y": -33
                 },
                 "locked": false,
                 "name": "Switch1",
@@ -676,8 +676,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "Switch2",
-                    "x": 6,
-                    "y": -25
+                    "x": 43,
+                    "y": -44
                 },
                 "locked": false,
                 "name": "Switch2",
@@ -922,7 +922,7 @@
                 "compute_id": "local",
                 "console": null,
                 "console_auto_start": false,
-                "console_type": null,
+                "console_type": "none",
                 "custom_adapters": [],
                 "first_port_name": null,
                 "height": 71,
@@ -1056,8 +1056,8 @@
                 "symbol": ":/symbols/cloud.svg",
                 "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
                 "width": 159,
-                "x": -255,
-                "y": -451,
+                "x": 497,
+                "y": -450,
                 "z": 1
             }
         ]

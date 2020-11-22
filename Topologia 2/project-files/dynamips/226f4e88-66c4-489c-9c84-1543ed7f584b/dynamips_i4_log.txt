@@ -1,0 +1,76 @@
+Nov 21 23:26:07.924 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 21 23:26:07.927 HYPERVISOR: Started on IP = localhost, TCP port = 50617.
+Nov 21 23:26:08.364 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 21 23:26:08.365 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Alejandro Garcia\Desktop\redes1_proyecto_grupo20\Topologia 2\project-files\dynamips 
+Nov 21 23:26:08.366 GENERAL: working_dir=C:\Users\Alejandro Garcia\Desktop\redes1_proyecto_grupo20\Topologia 2\project-files\dynamips
+Nov 21 23:26:08.367 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Alejandro Garcia\Desktop\redes1_proyecto_grupo20\Topologia 2\project-files\dynamips\0436cb3d-c5f0-4e2e-a87a-d2bfc5e04be8 
+Nov 21 23:26:08.368 GENERAL: working_dir=C:\Users\Alejandro Garcia\Desktop\redes1_proyecto_grupo20\Topologia 2\project-files\dynamips\0436cb3d-c5f0-4e2e-a87a-d2bfc5e04be8
+Nov 21 23:26:08.369 HYPERVISOR: exec_cmd: vm create ESW1 2 c3725 
+Nov 21 23:26:08.375 VM: VM ESW1 created.
+Nov 21 23:26:08.377 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW1 5009 
+Nov 21 23:26:08.378 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW1 
+Nov 21 23:26:08.378 HYPERVISOR: exec_cmd: vm set_disk0 ESW1 1 
+Nov 21 23:26:08.379 HYPERVISOR: exec_cmd: vm set_exec_area ESW1 64 
+Nov 21 23:26:08.380 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Nov 21 23:26:08.382 HYPERVISOR: exec_cmd: vm set_idle_pc ESW1 0x60bf8ba0 
+Nov 21 23:26:08.384 HYPERVISOR: exec_cmd: vm set_ios ESW1 C:/Users/Alejandro Garcia/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Nov 21 23:26:08.385 HYPERVISOR: exec_cmd: c3725 set_mac_addr ESW1 c202.2568.0000 
+Nov 21 23:26:08.387 HYPERVISOR: exec_cmd: vm set_nvram ESW1 256 
+Nov 21 23:26:08.388 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Nov 21 23:26:08.388 HYPERVISOR: exec_cmd: vm slot_add_binding ESW1 1 0 NM-16ESW 
+Nov 21 23:26:13.494 HYPERVISOR: exec_cmd: nio create_udp udp-1b9bf88b-2afc-483d-865e-f13fddac10b0 10008 127.0.0.1 10009 
+Nov 21 23:26:13.860 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW1 1 0 udp-1b9bf88b-2afc-483d-865e-f13fddac10b0 
+Nov 21 23:26:13.862 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Nov 21 23:26:14.122 HYPERVISOR: exec_cmd: nio create_udp udp-e47de4b4-d9a6-4bf2-847c-a53076da08f7 10012 127.0.0.1 10013 
+Nov 21 23:26:14.128 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW1 1 1 udp-e47de4b4-d9a6-4bf2-847c-a53076da08f7 
+Nov 21 23:26:14.130 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Nov 21 23:26:16.264 HYPERVISOR: exec_cmd: nio create_udp udp-96d99336-515e-43b6-877a-4c59faee1dc7 10032 127.0.0.1 10033 
+Nov 21 23:26:16.272 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW1 1 2 udp-96d99336-515e-43b6-877a-4c59faee1dc7 
+Nov 21 23:26:16.274 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Nov 21 23:26:30.358 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Nov 21 23:26:30.363 VM: VM Ghost created.
+Nov 21 23:26:30.366 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Alejandro Garcia/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Nov 21 23:26:30.367 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Nov 21 23:26:30.368 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost C:\Users\Alejandro Garcia\Desktop\redes1_proyecto_grupo20\Topologia 2\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Nov 21 23:26:30.370 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 21 23:26:30.372 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Nov 21 23:26:30.372 HYPERVISOR: exec_cmd: vm start Ghost 
+Nov 21 23:26:34.897 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 21 23:26:34.902 HYPERVISOR: exec_cmd: vm stop Ghost 
+Nov 21 23:26:35.093 VM: VM Ghost shutdown.
+Nov 21 23:26:35.095 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Nov 21 23:26:35.101 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Nov 21 23:26:35.101 VM: VM Ghost destroyed.
+Nov 21 23:26:35.142 HYPERVISOR: exec_cmd: vm set_ghost_status ESW1 2 
+Nov 21 23:26:35.143 HYPERVISOR: exec_cmd: vm set_ghost_file ESW1 C:\Users\Alejandro Garcia\Desktop\redes1_proyecto_grupo20\Topologia 2\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Nov 21 23:26:35.144 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Nov 21 23:26:35.147 HYPERVISOR: exec_cmd: vm set_config ESW1 configs\i2_startup-config.cfg 
+Nov 21 23:26:35.149 HYPERVISOR: exec_cmd: vm start ESW1 
+Nov 21 23:27:06.593 HYPERVISOR: exec_cmd: vm extract_config ESW1 
+Nov 21 23:27:06.633 HYPERVISOR: exec_cmd: vm extract_config ESW1 
+Nov 21 23:41:06.937 HYPERVISOR: exec_cmd: vm extract_config ESW1 
+Nov 21 23:41:06.983 HYPERVISOR: exec_cmd: vm extract_config ESW1 
+Nov 21 23:42:27.458 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Nov 21 23:42:27.459 HYPERVISOR: exec_cmd: vm stop ESW1 
+Nov 21 23:42:27.745 VM: VM ESW1 shutdown.
+Nov 21 23:42:27.748 HYPERVISOR: exec_cmd: vm extract_config ESW1 
+Nov 21 23:42:57.672 HYPERVISOR: exec_cmd: vm set_ghost_status ESW1 2 
+Nov 21 23:42:57.674 HYPERVISOR: exec_cmd: vm set_ghost_file ESW1 C:\Users\Alejandro Garcia\Desktop\redes1_proyecto_grupo20\Topologia 2\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Nov 21 23:42:57.676 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Nov 21 23:42:57.679 HYPERVISOR: exec_cmd: vm set_config ESW1 configs\i2_startup-config.cfg 
+Nov 21 23:42:57.680 HYPERVISOR: exec_cmd: vm start ESW1 
+Nov 21 23:43:32.781 HYPERVISOR: exec_cmd: vm extract_config ESW1 
+Nov 21 23:43:33.583 HYPERVISOR: exec_cmd: vm extract_config ESW1 
+Nov 21 23:51:26.759 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Nov 21 23:51:26.765 HYPERVISOR: exec_cmd: vm stop ESW1 
+Nov 21 23:51:26.994 VM: VM ESW1 shutdown.
+Nov 21 23:51:26.998 HYPERVISOR: exec_cmd: vm extract_config ESW1 
+Nov 21 23:51:33.134 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Nov 21 23:51:33.144 HYPERVISOR: exec_cmd: vm extract_config ESW1 
+Nov 21 23:51:33.717 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Nov 21 23:51:33.719 HYPERVISOR: exec_cmd: vm extract_config ESW1 
+Nov 21 23:51:33.726 HYPERVISOR: exec_cmd: vm delete ESW1 
+Nov 21 23:51:33.726 VM: VM ESW1 destroyed.
+Nov 21 23:51:33.751 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 21 23:51:33.971 HYPERVISOR: Stopped.
+Nov 21 23:51:33.971 GENERAL: reset done.

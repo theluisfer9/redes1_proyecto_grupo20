@@ -1552,17 +1552,17 @@
                             "type": "ethernet"
                         },
                         {
+                            "name": "Conexi\u00f3n de \u00e1rea local* 2",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
                             "name": "VMware Network Adapter VMnet1",
                             "special": true,
                             "type": "ethernet"
                         },
                         {
                             "name": "VMware Network Adapter VMnet8",
-                            "special": true,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "VMware Network Adapter VMnet9",
                             "special": true,
                             "type": "ethernet"
                         },
@@ -1597,57 +1597,12 @@
                             "type": "ethernet"
                         },
                         {
+                            "name": "VMware Network Adapter VMnet9",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
                             "name": "VMware Network Adapter VMnet10",
-                            "special": true,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "VMware Network Adapter VMnet11",
-                            "special": true,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "VMware Network Adapter VMnet12",
-                            "special": true,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "VMware Network Adapter VMnet13",
-                            "special": true,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "VMware Network Adapter VMnet14",
-                            "special": true,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "VMware Network Adapter VMnet15",
-                            "special": true,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "VMware Network Adapter VMnet16",
-                            "special": true,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "VMware Network Adapter VMnet17",
-                            "special": true,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "VMware Network Adapter VMnet18",
-                            "special": true,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "VMware Network Adapter VMnet19",
-                            "special": true,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "VirtualBox Host-Only Network",
                             "special": true,
                             "type": "ethernet"
                         },
@@ -1698,6 +1653,6 @@
     },
     "type": "topology",
     "variables": null,
-    "version": "2.2.15",
-    "zoom": 71
+    "version": "2.2.11",
+    "zoom": 50
 }
