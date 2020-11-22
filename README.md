@@ -3,13 +3,20 @@
 ## Manual de Configuración
 
 ### Definicion de redes
-![]()
+| VLAN | ip |
+|---|---|
+| VLAN 30 | 30.0.0.1 |
+| VLAN 40 | 40.0.0.1 |
+| VLAN 50 | 50.0.0.1 |
+| VLAN 60 | 60.0.0.1 |
+| VLAN 70 | 70.0.0.1 |
+| VLAN 80 | 80.0.0.1 |
 
 ### Topologia 1
 ![](imgs/topo1.JPG)
 
 ### Topologia 2
-![](imgs/)
+![](imgs/topologia2.png)
 
 ### Configuraciones
 
@@ -40,16 +47,29 @@
 #### PC4
 ![](imgs/pc4.JPG)
 
-#### 
-![](imgs/)
+#### R1 (topologia 2)
+![](imgs/router1.png)
 
-#### 
-![](imgs/)
+#### SW2 (EIGRP)
+![](imgs/eigrp.png)
 
-#### 
-![](imgs/)
+#### SW2 (HSRP)
+![](imgs/hsrp.png)
+
+#### SW1 (VLANS)
+![](imgs/vlans.png)
+
+#### SW1 (TRUNKS)
+![](imgs/trunks.png)
 
 ### Captura de Paquetes
+
+#### Topologia 1
+![](imgs/paquetes_ping.JPG)
+![](imgs/paquetes_direcciones.JPG)
+![](imgs/capturas_hex.JPG)
+
+#### Topologia 2
 ![](imgs/paquetes_ping.JPG)
 ![](imgs/paquetes_direcciones.JPG)
 ![](imgs/capturas_hex.JPG)
