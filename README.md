@@ -5,12 +5,12 @@
 ### Definicion de redes
 | VLAN | ip |
 |---|---|
-| VLAN 30 | 30.0.0.1 |
-| VLAN 40 | 40.0.0.1 |
-| VLAN 50 | 50.0.0.1 |
-| VLAN 60 | 60.0.0.1 |
-| VLAN 70 | 70.0.0.1 |
-| VLAN 80 | 80.0.0.1 |
+| VLAN 30 | 192.168.30.1 |
+| VLAN 40 | 192.168.40.1 |
+| VLAN 50 | 192.168.50.1 |
+| VLAN 60 | 192.168.60.1 |
+| VLAN 70 | 192.168.21.1 |
+| VLAN 80 | 192.168.11.1 |
 
 ### Topologia 1
 ![](imgs/topo1.JPG)
@@ -60,7 +60,7 @@
 ![](imgs/vlans.png)
 
 #### SW1 (TRUNKS)
-![](imgs/trunks.png)
+![](imgs/trunk.png)
 
 ### Captura de Paquetes
 

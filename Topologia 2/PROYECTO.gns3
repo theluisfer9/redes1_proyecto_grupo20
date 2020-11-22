@@ -435,6 +435,37 @@
                     }
                 ],
                 "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "d9aa74ff-727d-420f-883d-2f4456bb3c45",
+                "nodes": [
+                    {
+                        "adapter_number": 2,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f2/0",
+                            "x": 72,
+                            "y": 20
+                        },
+                        "node_id": "89a2cd1e-952a-48ed-8c59-c897083f8379",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "OpenVPN TAP-Windows6",
+                            "x": 0,
+                            "y": 38
+                        },
+                        "node_id": "bda48168-3c33-46fb-b22f-8fb85d66032e",
+                        "port_number": 3
+                    }
+                ],
+                "suspend": false
             }
         ],
         "nodes": [
@@ -567,7 +598,7 @@
                     "ram": 128,
                     "slot0": "GT96100-FE",
                     "slot1": "NM-1FE-TX",
-                    "slot2": null,
+                    "slot2": "NM-1FE-TX",
                     "sparsemem": true,
                     "system_id": "FTX0945W0MY",
                     "usage": "",
@@ -957,7 +988,7 @@
                             "type": "ethernet"
                         },
                         {
-                            "name": "Conexi\u00f3n de \u00e1rea local* 2",
+                            "name": "Ethernet 2",
                             "special": false,
                             "type": "ethernet"
                         },
@@ -983,31 +1014,6 @@
                         },
                         {
                             "name": "VMware Network Adapter VMnet4",
-                            "special": true,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "VMware Network Adapter VMnet5",
-                            "special": true,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "VMware Network Adapter VMnet6",
-                            "special": true,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "VMware Network Adapter VMnet7",
-                            "special": true,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "VMware Network Adapter VMnet9",
-                            "special": true,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "VMware Network Adapter VMnet10",
                             "special": true,
                             "type": "ethernet"
                         },
@@ -1064,6 +1070,6 @@
     },
     "type": "topology",
     "variables": null,
-    "version": "2.2.11",
+    "version": "2.2.15",
     "zoom": 100
 }
